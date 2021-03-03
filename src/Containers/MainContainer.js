@@ -1,4 +1,4 @@
-import {Container, Header} from 'semantic-ui-react';
+import {Container} from 'semantic-ui-react';
 import Footer from '../Components/Footer';
 import MainPageHeader from '../Components/MainHeader';
 import MainBody from '../Components/MainBody';

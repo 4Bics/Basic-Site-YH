@@ -4,7 +4,7 @@ import BlogPost from '../Components/BlogPost';
 function MainBody () {
 
   return (
-    <Segment>
+    <Segment inverted>
       <BlogPost/>
     </Segment>
   )
