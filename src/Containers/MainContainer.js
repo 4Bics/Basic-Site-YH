@@ -6,11 +6,11 @@ import MainBody from '../Components/MainBody';
 function MainContainer () {
 
   return (
-    <Container>
-      <MainPageHeader/>
-      <MainBody/>
-      <Footer/>
-    </Container>
+      <Container fluid>
+        <MainPageHeader/>
+        <MainBody/>
+        <Footer/>
+      </Container>
   );
 };
 

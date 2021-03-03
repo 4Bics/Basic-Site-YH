@@ -3,9 +3,9 @@ import {Header, Segment} from 'semantic-ui-react';
 function MainHeader () {
 
   return (
-    <Segment inverted>
-      <Header content='Main Header'/>
-    </Segment>
+    <div style={{width: '100%', padding: '25px'}}>
+      <Header content='Main Header' style={{color: 'white'}}/>
+    </div>
   )
 }
 

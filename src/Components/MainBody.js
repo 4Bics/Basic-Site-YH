@@ -4,9 +4,9 @@ import BlogPost from '../Components/BlogPost';
 function MainBody () {
 
   return (
-    <Segment inverted>
+    <div style={{padding: '15px'}}>
       <BlogPost/>
-    </Segment>
+    </div>
   )
 }
 
