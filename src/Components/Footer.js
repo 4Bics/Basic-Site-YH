@@ -20,9 +20,6 @@ function Footer () {
                 <Header inverted as='h4' content='Services' />
                 <List link inverted>
                   <List.Item as='a'>Banana Pre-Order</List.Item>
-                  <List.Item as='a'>DNA FAQ</List.Item>
-                  <List.Item as='a'>How To Access</List.Item>
-                  <List.Item as='a'>Favorite X-Men</List.Item>
                 </List>
               </Grid.Column>
               <Grid.Column width={7}>
