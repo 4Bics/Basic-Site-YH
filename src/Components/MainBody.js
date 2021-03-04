@@ -4,7 +4,9 @@ import BlogPost from '../Components/BlogPost';
 function MainBody () {
 
   return (
-    <div style={{padding: '15px'}}>
+    <div style={{backgroundColor: 'white', padding: '100px', height: '75vh', width: '100%'}}>
+      <BlogPost/>
+      <BlogPost/>
       <BlogPost/>
     </div>
   )
