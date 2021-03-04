@@ -3,7 +3,7 @@ import {Grid, Segment, Icon} from 'semantic-ui-react';
 function BlogPost () {
 
   return (
-    <Segment padded='very'  style={{backgroundColor: 'rgb(8, 9, 18)', border: 'white 1px solid', margin: '30px 200px', borderRadius: '10px'}}>
+    <Segment style={{backgroundColor: 'rgb(8, 9, 18)', border: 'white 1px solid', margin: '30px 200px', padding: '65px', borderRadius: '10px'}}>
       <Grid>
         <Grid.Row>
           <Grid.Column width={4}>

@@ -1,13 +1,15 @@
-import {Segment} from 'semantic-ui-react';
+import {Divider, Segment} from 'semantic-ui-react';
 import BlogPost from '../Components/BlogPost';
 
 function MainBody () {
 
   return (
-    <div style={{backgroundColor: 'white', padding: '100px', height: '75vh', width: '100%'}}>
-      <BlogPost/>
-      <BlogPost/>
-      <BlogPost/>
+    <div style={{backgroundColor: 'white', height: '75vh', width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly'}}>
+        <BlogPost/>
+        <Divider/>
+        <BlogPost/>
+        <Divider/>
+        <BlogPost/>
     </div>
   )
 }
