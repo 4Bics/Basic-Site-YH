@@ -3,7 +3,7 @@ import {Segment, Grid, Header, List, Container} from 'semantic-ui-react';
 function Footer () {
 
   return (
-    <Segment style={{backgroundColor: 'rgb(8, 9, 18)', height: '12.5vh', width: '100%'}}>
+    <Segment style={{backgroundColor: 'rgb(8, 9, 18)', height: '12.5vh', width: '100%', display: 'flex', alignItems: 'center', position: 'fixed'}}>
       <Container>
         <Grid divided stackable>
           <Grid.Row>
