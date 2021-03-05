@@ -9,7 +9,6 @@ function MainBody () {
         <TextContainer/>
         <Divider/>
         <BlogPost/>
-        <Divider/>
         <BlogPost/>
     </div>
   )
