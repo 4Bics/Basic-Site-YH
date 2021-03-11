@@ -3,8 +3,9 @@ import {Segment, Grid, Header, List, Container} from 'semantic-ui-react';
 function Footer () {
 
   return (
-    <Segment style={{backgroundColor: 'rgb(8, 9, 18)', height: '12.5vh', width: '100%', display: 'flex', alignItems: 'center', position: 'fixed'}}>
-      <Container>
+    <Container style={{width: '100%'}}>
+      <div style={{backgroundColor: 'rgb(8, 9, 18)'}}>
+      <Segment style={{backgroundColor: 'rgb(8, 9, 18)', width: '100%', display: 'flex', alignItems: 'center', padding: '50px'}}>
         <Grid divided stackable>
           <Grid.Row>
             <Grid.Column width={3}>
@@ -31,8 +32,9 @@ function Footer () {
             </Grid.Column>
           </Grid.Row>
         </Grid>
-      </Container>
-    </Segment>
+      </Segment>
+      </div>
+    </Container>
   )
 }
 
